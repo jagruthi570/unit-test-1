@@ -1,0 +1,14 @@
+blog{
+    color: blue;
+}
+h2{
+    color:red ;
+}
+.blog h2 + p{
+    font-weight:bold ;
+}
+.blog h2 + p,
+.blog h2 - p {
+    background -color: lightgray;
+}
+
