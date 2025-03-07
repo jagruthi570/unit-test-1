@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-seri
+}
+.container{
+    color: blue;
+
+}
+.content{
+    color: black;
+}
+h1{
+ color:red; 
+}
+.nested {
+    border: 4px solid maroon;
+  }
+  
+  .nested p {
+    border: inherit;
+  }
+  .content p {
+    color: initial; /* Resets to default text color */
+  }
+  
+  .nested p {
+    color: red;
+    background-color: yellow;
+  }
+  
+
